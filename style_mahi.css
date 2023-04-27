@@ -1,0 +1,1033 @@
+body
+{
+    background: linear-gradient(
+        to bottom,
+        rgb(38, 42, 86,0.9) 0%,
+        rgb(38, 42, 86,0.9) 10%,
+        rgb(0,0,0,1) 100%
+    );
+}
+.one
+{
+    margin-top:2%;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:0%;
+    font-size:400%;
+    text-indent:1%;
+    height:25%;
+}
+#one
+{
+    /* box-shadow:1px 1px 10px black; */
+    /* margin-top:4%; */
+    border-style:hidden;
+    border-color:white;
+    border-radius:10px;
+    border-width:1px;
+    padding:5%;
+    /* background:linear-gradient(45deg,#373B44,#4286f4); */
+    color:white;
+    font-family: 'Kanit', sans-serif;
+}
+#hr
+{
+    
+    width:50%;
+    height:2%;
+    background-color:white;
+    margin-top:-10%;
+    margin-left:45%;
+}
+#two
+{
+    
+    font-size:35%;
+    margin-top:3%;
+    margin-left:15%;
+    font-family: 'Kanit', sans-serif;
+    color:white;
+}
+#hr2
+{
+    width:13%;
+    height:2%;
+    background-color:white;
+    margin-left:2%;
+    margin-top:-2.5%;
+}
+.main
+{
+    margin-top:10%;
+    margin-left:1%;
+    position: relative;
+    width:30%;
+    height:70%;
+    
+}
+.main:hover > .card{
+    transform:rotateY(180deg);
+}
+.card
+{
+    
+    border-radius:25px;
+    position:absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition: all 0.8s ease;
+    background-color:transparent;
+}
+.front
+{
+    color:white;
+    text-align:justify;
+    border-radius:25px;
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    font-size:140%;
+    padding:7%;
+    font-family: 'Kanit', sans-serif;
+    background:linear-gradient(45deg,#4286f4,#373B44);
+}
+.back
+{
+    color:white;
+    text-align:justify;
+    padding:7%;
+    font-size:140%;
+    font-family: 'Kanit', sans-serif;
+    border-radius:25px;
+    transform:rotateY(180deg);
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    background:linear-gradient(45deg,#373B44,#4286f4);
+}
+
+.resumedir
+{
+    font-family: 'Kanit', sans-serif;
+    color:white;
+    margin-left:60%;
+    margin-top:-18%;
+    font-size:400%;
+}
+.resumedir a
+{
+    text-decoration:none;
+    color:white;
+}
+.resumedir a:hover
+{
+    color:blue;
+}
+#resdir1
+{
+    font-family: 'Kanit', sans-serif;
+    color:white;
+    margin-left:80%;
+    margin-top:-15%;
+    font-size:100%;
+}
+.skills
+{
+    font-family: 'Kanit', sans-serif;
+    margin-top:18%;
+    margin-left:8%;
+    color:white;
+    font-size:300%;
+}
+#hr4
+{
+    position:absolute;
+    color:white;
+    width:5%;
+    height:0.5%;
+    margin-left:1%;
+    margin-top:19%;
+}
+#hr3
+{
+    color:white;
+    width:70%;
+    height:0.5%;
+    margin-left:20%;
+    margin-top:-3%;
+}
+.skillbox
+{
+    box-shadow:0px 1.5px 5px;
+    border-style:hidden;
+    border-color:white;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:1%;
+    margin-top:9%;
+    color:black;
+    padding:3%;
+    width:30%;
+    height:40%;
+    font-family: 'Kanit', sans-serif;
+    font-size:140%;
+    background-color:B9E9FC;   
+}
+.skillbox:hover
+{
+    background-color:transparent;
+    color:white;
+}
+#bar
+{
+    margin-top:0%;
+    position: absolute;
+    width: 300px;
+    height: 5px;
+    border-radius: 10px;
+}
+#bar2
+{
+    margin-top:0%;
+    position: absolute;
+    width: 295px;
+    height: 5px;
+    border-radius: 10px;   
+    color:red;
+}
+.skillbox2
+{
+    box-shadow:0px 1.5px 5px black;
+    border-style:hidden;
+    border-color:black;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:35%;
+    margin-top:-19%;
+    color:white;
+    padding:3%;
+    width:30%;
+    height:40%;
+    font-family: 'Kanit', sans-serif;
+    font-size:140%;
+    background-color:576CBC;
+
+}
+.skillbox2:hover
+{
+    background-color:transparent;
+    color:white;
+}
+#bar3
+{
+    margin-top:0%;
+    position: absolute;
+    width: 300px;
+    height: 5px;
+    border-radius: 10px;
+}
+#bar4
+{
+    margin-top:0%;
+    position: absolute;
+    width: 280px;
+    height: 5px;
+    border-radius: 10px;   
+    color:red;
+}
+.skillbox3
+{
+    box-shadow:0px 1.5px 5px;
+    border-style:hidden;
+    border-color:white;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:69%;
+    margin-top:-19%;
+    color:black;
+    padding:3%;
+    width:30%;
+    height:40%;
+    font-family: 'Kanit', sans-serif;
+    font-size:140%;
+    background-color:DAF5FF;
+}
+.skillbox3:hover
+{
+    background-color:transparent;
+    color:white;
+}
+#bar5
+{
+    margin-top:0%;
+    position: absolute;
+    width: 300px;
+    height: 5px;
+    border-radius: 10px;
+}
+#bar6
+{
+    margin-top:0%;
+    position: absolute;
+    width: 290px;
+    height: 5px;
+    border-radius: 10px;   
+    color:red;
+}
+.skillbox4
+{
+    box-shadow:0px 1.5px 5px;
+    border-style:hidden;
+    border-color:white;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:1%;
+    margin-top:3%;
+    color:black;
+    padding:3%;
+    width:30%;
+    height:40%;
+    font-family: 'Kanit', sans-serif;
+    font-size:140%;
+    background-color:ECF2FF;
+}
+.skillbox4:hover
+{
+    background-color:transparent;
+    color:white;
+}
+#bar7
+{
+    margin-top:0%;
+    position: absolute;
+    width: 300px;
+    height: 5px;
+    border-radius: 10px;
+}
+#bar8
+{
+    margin-top:0%;
+    position: absolute;
+    width: 250px;
+    height: 5px;
+    border-radius: 10px;   
+    color:red;
+}
+.skillbox5
+{
+    box-shadow:0px 1.5px 5px;
+    border-style:hidden;
+    border-color:white;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:35%;
+    margin-top:-19%;
+    color:black;
+    padding:3%;
+    width:30%;
+    height:40%;
+    font-family: 'Kanit', sans-serif;
+    font-size:140%;
+    background-color:C0EEF2;
+}
+.skillbox5:hover
+{
+    background-color:transparent;
+    color:white;
+}
+#bar9
+{
+    margin-top:0%;
+    position: absolute;
+    width: 300px;
+    height: 5px;
+    border-radius: 10px;
+}
+#bar10
+{
+    margin-top:0%;
+    position: absolute;
+    width:300px;
+    height: 5px;
+    border-radius: 10px;   
+    color:red;
+}
+.skillbox6
+{
+    box-shadow:0px 1.5px 5px;
+    border-style:hidden;
+    border-color:white;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:69%;
+    margin-top:-19%;
+    color:black;
+    padding:3%;
+    width:30%;
+    height:40%;
+    font-family: 'Kanit', sans-serif;
+    font-size:140%;
+    background-color:A0C3D2;
+}
+.skillbox6:hover
+{
+    background-color:transparent;
+    color:white;
+}
+#bar11
+{
+    margin-top:0%;
+    position: absolute;
+    width: 300px;
+    height: 5px;
+    border-radius: 10px;
+}
+#bar12
+{
+    margin-top:0%;
+    position: absolute;
+    width:295px;
+    height: 5px;
+    border-radius: 10px;   
+    color:red;
+}
+#projects
+{
+    font-family: 'Kanit', sans-serif;
+    margin-top:5%;
+    margin-left:8%;
+    color:white;
+    font-size:300%;
+}
+ #hr5
+{
+    position:absolute;
+    color:white;
+    width:5%;
+    height:0.5%;
+    margin-left:1%;
+    margin-top:7%;
+}
+#hr6
+{
+    position:absolute;
+    color:white;
+    width:70%;
+    height:0.5%;
+    margin-left:24%;
+    margin-top:-3%;
+}
+#projectbox
+{
+    box-shadow:1.5px 0px 10px black;
+    border-style:none;
+    border-color:black;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:1%;
+    margin-top:6%;
+    color:black;
+    padding:3%;
+    width:50%;
+    height:60%;
+    font-family: 'Kanit', sans-serif;
+    font-size:140%;
+    background-color:whitesmoke;
+}
+#projectbox:hover
+{
+    background:linear-gradient(45deg,#F0F2F0,#000C40);
+    color:white;
+
+}
+.resumedir1
+{
+    position:absolute;
+    font-family: 'Kanit', sans-serif;
+    color:white;
+    margin-left:60%;
+    margin-top:-18%;
+    font-size:400%;
+}
+.resumedir1 a
+{
+    text-decoration:none;
+    color:white;
+}
+.resumedir1 a:hover
+{
+    color:blue;
+}
+#resdir2
+{
+    font-family: 'Kanit', sans-serif;
+    color:white;
+    margin-left:115%;
+    margin-top:-22%;
+    font-size:100%;
+}
+
+
+.projectbox2
+{
+    box-shadow:0px 1.5px 10px black;
+    border-style:none;
+    border-color:black;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:48%;
+    margin-top:6%;
+    color:black;
+    padding:3%;
+    width:50%;
+    height:65%;
+    font-family: 'Kanit', sans-serif;
+    font-size:140%;
+    background-color:whitesmoke;
+}
+.projectbox2:hover
+{
+    background:linear-gradient(45deg,#F0F2F0,#000C40);
+    color:white;
+}
+.resumedir2
+{
+    position:absolute;
+    font-family: 'Kanit', sans-serif;
+    color:white;
+    margin-left:12%;
+    margin-top:-20%;
+    font-size:400%;
+}
+.resumedir2 a
+{
+    text-decoration:none;
+    color:white;
+}
+
+.resumedir2 a:hover
+{
+    color:blue;
+}
+#resdir3
+{
+    font-family: 'Kanit', sans-serif;
+    color:white;
+    margin-left:-30%;
+    margin-top:-22%;
+    font-size:100%;
+}
+.projectbox3
+{
+    box-shadow:0px 1.5px 10px black;
+    border-style:none;
+    border-color:black;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:1%;
+    margin-top:6%;
+    color:black;
+    padding:3%;
+    width:50%;
+    height:65%;
+    font-family: 'Kanit', sans-serif;
+    font-size:140%;
+    background-color:whitesmoke;
+}
+.projectbox3:hover
+{
+    background:linear-gradient(45deg,#F0F2F0,#000C40);
+    color:white;
+}
+.resumedir3
+{
+    position:absolute;
+    font-family: 'Kanit', sans-serif;
+    color:white;
+    margin-left:60%;
+    margin-top:-20%;
+    font-size:400%;
+}
+.resumedir3 a
+{
+    text-decoration:none;
+    color:white;
+}
+
+.resumedir3 a:hover
+{
+    color:blue;
+}
+#resdir4
+{
+    font-family: 'Kanit', sans-serif;
+    color:white;
+    margin-left:110%;
+    margin-top:-22%;
+    font-size:100%;
+}
+.projectbox4
+{
+    box-shadow:0px 1.5px 10px black;
+    border-style:none;
+    border-color:black;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:48%;
+    margin-top:6%;
+    color:black;
+    padding:3%;
+    width:50%;
+    height:60%;
+    font-family: 'Kanit', sans-serif;
+    font-size:140%;
+    background-color:whitesmoke;
+}
+.projectbox4:hover
+{
+    background:linear-gradient(45deg,#F0F2F0,#000C40);
+    color:white;
+}
+.resumedir4
+{
+    position:absolute;
+    font-family: 'Kanit', sans-serif;
+    color:white;
+    margin-left:12%;
+    margin-top:-20%;
+    font-size:400%;
+}
+.resumedir4 a
+{
+    text-decoration:none;
+    color:white;
+}
+
+.resumedir4 a:hover
+{
+    color:blue;
+}
+#resdir5
+{
+    font-family: 'Kanit', sans-serif;
+    color:white;
+    margin-left:-30%;
+    margin-top:-22%;
+    font-size:100%;
+}
+#end
+{
+    font-family:monospace;
+    color:white;
+    margin-left:43%;
+    font-size:100%;
+    margin-top:15%;
+}
+#end p
+{
+    font-size:120%;
+    margin-left:-50%;
+}
+#end h1
+{
+    margin-left:-25%;
+}
+@media (max-width:768px)
+{
+    .one
+   {
+    margin-top:10%;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:0%;
+    font-size:100%;
+    text-indent:10%;
+    height:10%;
+    width:110%;
+   }
+   #one
+   {
+    box-shadow:1px 1px 10px black;
+    border-style:hidden;
+    border-color:white;
+    border-radius:20px;
+    border-width:1px;
+    padding:5%;
+    background-color:BACDDB;
+    font-family: 'Kanit', sans-serif;
+   }
+   #hr
+   {
+    
+    width:8%;
+    height:5%;
+    background-color:red;
+    margin-top:-8%;
+    margin-left:30%;
+   }
+   #two
+   {
+    font-size:50%;
+    margin-top:1%;
+    margin-left:-2%;
+    font-size:100%;
+    font-family: 'Kanit', sans-serif;
+   }
+   #hr2
+  {
+    width:5%;
+    height:4%;
+    background-color:black;
+    margin-left:2%;
+    margin-top:-3%;
+  }
+  #about
+  {
+    box-shadow:0px 0px 10px black;
+    border-style:solid;
+    border-color:white;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:1%;
+    margin-top:10%;
+    color:black;
+    padding:3%;
+    width:30%;
+    height:60%;
+    font-family: 'Kanit', sans-serif;
+    font-size:100%;
+    background-color:EFF5F5;
+   }
+   .resumedir
+   {
+    font-family: 'Kanit', sans-serif;
+    color:white;
+    margin-left:50%;
+    margin-top:-25%;
+    font-size:300%;
+   }
+   .resumedir a
+   {
+    text-decoration:none;
+    color:white;
+   }
+   .resumedir a:hover
+   {
+    color:blue;
+   }
+   .skills
+   {
+    font-family: 'Kanit', sans-serif;
+    margin-top:18%;
+    margin-left:8%;
+    color:white;
+    font-size:200%;
+   }
+   .skillbox
+    {
+    box-shadow:0px 1.5px 5px;
+    border-style:hidden;
+    border-color:white;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:1%;
+    margin-top:9%;
+    color:black;
+    padding:3%;
+    width:30%;
+    height:40%;
+    font-family: 'Kanit', sans-serif;
+    font-size:140%;
+    background-color:B9E9FC;  
+   }
+   #bar
+   {
+    margin-top:0%;
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+   }
+   #bar2
+   {
+    margin-top:0%;
+    position: absolute;
+    width: 195px;
+    height: 5px;
+    border-radius: 10px;   
+    color:red;
+   }
+   .skillbox2
+   {
+    box-shadow:0px 1.5px 5px black;
+    border-style:hidden;
+    border-color:black;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:35%;
+    margin-top:-30%;
+    color:white;
+    padding:3%;
+    width:30%;
+    height:40%;
+    font-family: 'Kanit', sans-serif;
+    font-size:140%;
+    background-color:576CBC;
+
+   }
+   #bar3
+   {
+    margin-top:0%;
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+   }
+    #bar4
+   {
+    margin-top:0%;
+    position: absolute;
+    width: 180px;
+    height: 5px;
+    border-radius: 10px;   
+    color:red;
+   }
+   .skillbox3
+{
+    box-shadow:0px 1.5px 5px;
+    border-style:hidden;
+    border-color:white;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:69%;
+    margin-top:-30%;
+    color:black;
+    padding:3%;
+    width:30%;
+    height:40%;
+    font-family: 'Kanit', sans-serif;
+    font-size:140%;
+    background-color:DAF5FF;
+}
+#bar5
+{
+    margin-top:0%;
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+}
+#bar6
+{
+    margin-top:0%;
+    position: absolute;
+    width: 190px;
+    height: 5px;
+    border-radius: 10px;   
+    color:red;
+}
+.skillbox4
+{
+    box-shadow:0px 1.5px 5px;
+    border-style:hidden;
+    border-color:white;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:1%;
+    margin-top:3%;
+    color:black;
+    padding:3%;
+    width:30%;
+    height:40%;
+    font-family: 'Kanit', sans-serif;
+    font-size:150%;
+    background-color:ECF2FF;
+}
+#bar7
+{
+    margin-top:0%;
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+}
+#bar8
+{
+    margin-top:0%;
+    position: absolute;
+    width: 150px;
+    height: 5px;
+    border-radius: 10px;   
+    color:red;
+}
+.skillbox5
+{
+    box-shadow:0px 1.5px 5px;
+    border-style:hidden;
+    border-color:white;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:35%;
+    margin-top:-30%;
+    color:black;
+    padding:3%;
+    width:30%;
+    height:40%;
+    font-family: 'Kanit', sans-serif;
+    font-size:140%;
+    background-color:C0EEF2;
+}
+#bar9
+{
+    margin-top:0%;
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+}
+#bar10
+{
+    margin-top:0%;
+    position: absolute;
+    width:200px;
+    height: 5px;
+    border-radius: 10px;   
+    color:red;
+}
+.skillbox6
+{
+    box-shadow:0px 1.5px 5px;
+    border-style:hidden;
+    border-color:white;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:69%;
+    margin-top:-30%;
+    color:black;
+    padding:3%;
+    width:30%;
+    height:40%;
+    font-family: 'Kanit', sans-serif;
+    font-size:140%;
+    background-color:A0C3D2;
+}
+#bar11
+{
+    margin-top:0%;
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+}
+#bar12
+{
+    margin-top:0%;
+    position: absolute;
+    width:195px;
+    height: 5px;
+    border-radius: 10px;   
+    color:red;
+}
+#projects
+{
+    font-family: 'Kanit', sans-serif;
+    margin-top:5%;
+    margin-left:8%;
+    color:white;
+    font-size:150%;
+}
+.resumedir1
+{
+    position:absolute;
+    font-family: 'Kanit', sans-serif;
+    color:white;
+    margin-left:60%;
+    margin-top:-24%;
+    font-size:300%;
+}
+.projectbox2
+{
+    box-shadow:0px 1.5px 10px black;
+    border-style:none;
+    border-color:black;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:60%;
+    margin-top:6%;
+    color:black;
+    padding:3%;
+    width:50%;
+    height:65%;
+    font-family: 'Kanit', sans-serif;
+    font-size:120%;
+    background-color:whitesmoke;
+}
+.resumedir2
+{
+    position:absolute;
+    font-family: 'Kanit', sans-serif;
+    color:white;
+    margin-left:12%;
+    margin-top:-26%;
+    font-size:300%;
+}
+.projectbox3
+{
+    box-shadow:0px 1.5px 10px black;
+    border-style:none;
+    border-color:black;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:1%;
+    margin-top:6%;
+    color:black;
+    padding:3%;
+    width:50%;
+    height:65%;
+    font-family: 'Kanit', sans-serif;
+    font-size:120%;
+    background-color:whitesmoke;
+}
+.resumedir3
+{
+    position:absolute;
+    font-family: 'Kanit', sans-serif;
+    color:white;
+    margin-left:60%;
+    margin-top:-26%;
+    font-size:300%;
+}
+.projectbox4
+{
+    box-shadow:0px 1.5px 10px black;
+    border-style:none;
+    border-color:black;
+    border-radius:20px;
+    border-width:1px;
+    margin-left:60%;
+    margin-top:6%;
+    color:black;
+    padding:3%;
+    width:50%;
+    height:60%;
+    font-family: 'Kanit', sans-serif;
+    font-size:120%;
+    background-color:whitesmoke;
+}
+.projectbox4:hover
+{
+    background-color:F6F1E9;
+}
+.resumedir4
+{
+    position:absolute;
+    font-family: 'Kanit', sans-serif;
+    color:white;
+    margin-left:12%;
+    margin-top:-26%;
+    font-size:300%;
+}
+}
